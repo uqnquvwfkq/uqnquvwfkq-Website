@@ -1,0 +1,66 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set the background color for the whole body */
+body {
+    background-color: #f4f4f4;
+    text-align: center; /* Center content by default */
+}
+
+/* Header styling */
+header {
+    background: #333; /* Dark background for the header */
+    padding: 10px 0;
+    position: fixed; /* Fixed position so it stays at the top */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style: none; /* Remove bullets from list */
+    display: flex; /* Align navigation items horizontally */
+    justify-content: center; /* Center the items */
+}
+
+/* Styling for each navigation item */
+nav ul li {
+    margin: 0 15px; /* Space out the navigation items */
+}
+
+/* Link styling for the navigation items */
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Slightly larger text for readability */
+}
+
+/* Hero section (Main section) styling */
+.hero {
+    height: 50vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background: linear-gradient(to right, #9d9d9d, #373737); /* Gradient background */
+    color: white;
+    margin-top: 50px; /* Space from the fixed header */
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px; /* Spacing around each section */
+}
+
+/* Footer styling */
+footer {
+    background: #333; /* Dark background for footer */
+    color: white; /* White text in the footer */
+    padding: 15px 0;
+    margin-top: 20px; /* Space between content and footer */
+}
