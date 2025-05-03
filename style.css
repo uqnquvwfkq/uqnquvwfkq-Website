@@ -7,7 +7,7 @@ body, h1, h2, p, ul {
 
 /* Set the background color for the whole body */
 body {
-    background-color: #f4f4f4;
+    background-color: #b4b0b0; /* Light grey background */
     text-align: center; /* Center content by default */
 }
 
